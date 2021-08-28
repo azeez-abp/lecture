@@ -5,4 +5,4 @@ WORKDIR /app
 ADD .  .
 #RUN command
 RUN php -S localhost:8080
-CMD php index.php
+#CMD php index.php
