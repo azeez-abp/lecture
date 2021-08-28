@@ -4,5 +4,5 @@ WORKDIR /app
 #ADD source dest
 ADD .  .
 #RUN command
-RUN php -S localhost:8080
-#CMD php index.php
+#RUN php -S localhost:8080
+CMD php index.php
